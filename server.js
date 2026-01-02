@@ -2,9 +2,9 @@ import express from "express";
 import cors from "cors";
 import 'dotenv/config';
 import cookieParser from "cookie-parser";
-import connectDB from "./config/mongodb.js";
-import authRouter from "./routes/authroutes.js";
-import userRouter from "./routes/userRoutes.js";
+import connectDB from "./src/config/mongodb.js";
+import authRouter from "./src/routes/authroutes.js";
+import userRouter from "./src/routes/userRoutes.js";
 
 const app = express();
 const port = process.env.PORT || 4000

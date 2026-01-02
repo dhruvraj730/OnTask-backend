@@ -5,8 +5,8 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js --watch --dev "
+    "dev": "node server.js --watch ./src/",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
